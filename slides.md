@@ -1,9 +1,9 @@
 ---
-theme: seriph
-background: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg
+theme: default
+background: https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg
 class: 'text-center'
 highlighter: shiki
-lineNumbers: true
+lineNumbers: false
 info: |
   ## 什么是 Agent
   AI Agent 教学演示
@@ -12,6 +12,30 @@ drawings:
 css: unocss
 wakeLock: "build"
 ---
+
+<style>
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif !important;
+  font-weight: 600;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+
+.slidev-layout {
+  background-color: #f8f9fa;
+}
+
+.slidev-slide {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+}
+</style>
 
 # 什么是 Agent？
 
